@@ -42,6 +42,20 @@ public class Main {
                     menu();
                     break;
 
+                    case 3:
+                        System.out.println("Selecciono multiplicar: ");
+                        System.out.println("Ingrese el primer número: ");
+                        int e = Integer.parseInt(scanner.nextLine());
+                        System.out.println("Ingrese el segundo número: ");
+                        int f = Integer.parseInt(scanner.nextLine());
+                        System.out.println("El resultado de la multiplicacion es: " + operations.multiply(e, f));
+                        menu();
+                        break;
+
+                case 5: System.exit(0);
+                break;
+
+
                     default:
                         System.out.println("Opcion no valida");
                         menu();
