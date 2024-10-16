@@ -26,11 +26,34 @@ public class Main {
                     System.out.println("Selecciono sumar: ");
                     System.out.println("Ingrese el primer número: ");
                     int a = Integer.parseInt(scanner.nextLine());
-                    System.out.println("Ingrese el primer número: ");
+                    System.out.println("Ingrese el segundo número: ");
                     int b = Integer.parseInt(scanner.nextLine());
                     System.out.println("El resultado de la suma es: " + operations.sum(a, b));
                     menu();
                     break;
+
+                 case 2: 
+                    System.out.println("Selecciono restar: ");
+                    System.out.println("Ingrese el primer número: ");
+                    int c = Integer.parseInt(scanner.nextLine());
+                    System.out.println("Ingrese el segundo número: ");
+                    int d = Integer.parseInt(scanner.nextLine());
+                    System.out.println("El resultado de la resta es: " + operations.subtract(c, d));
+                    menu();
+                    break;
+
+                    case 3:
+                        System.out.println("Selecciono multiplicar: ");
+                        System.out.println("Ingrese el primer número: ");
+                        int e = Integer.parseInt(scanner.nextLine());
+                        System.out.println("Ingrese el segundo número: ");
+                        int f = Integer.parseInt(scanner.nextLine());
+                        System.out.println("El resultado de la multiplicacion es: " + operations.multiply(e, f));
+                        menu();
+                        break;
+
+
+
 
                     default:
                         System.out.println("Opcion no valida");
