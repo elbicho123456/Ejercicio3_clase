@@ -52,8 +52,9 @@ public class Main {
                         menu();
                         break;
 
-
-
+                case 5:
+                    System.out.println("Adios");
+                    break;
 
                     default:
                         System.out.println("Opcion no valida");
